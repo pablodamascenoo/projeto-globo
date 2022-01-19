@@ -1,0 +1,192 @@
+body{
+    font-family: 'Encode Sans', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 171px;
+    height: 36px;
+}
+
+.logo_mobile {
+    display: none;
+}
+
+
+.line {
+    height: 1px;
+    background-color: #E5E5E5;
+}
+
+.navbar {
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link_nav {
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.mob_nav{
+    display: none;
+}
+
+
+
+.content {
+    margin-top: 40px;
+    display: flex;
+    width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mat_princ {
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #c4160c;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.mat_sec {
+    color: #303134;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.mat_sec_block {
+    margin-bottom: 30px;
+}
+
+.block_half {
+    width: 49%;
+    margin-right: 40px;
+}
+
+.left {
+    margin-left: 40px;
+    margin-right: 0;
+    display: flex;
+}
+
+.news{
+    margin-right: 23px;
+    margin-bottom: 40px;
+}
+
+.img_news {
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+
+.img_big {
+    border-radius: 12px;
+    widows: 240px;
+    height: 128px;
+}
+
+.no-img{
+    margin-right: -23px;
+}
+
+.box_news{
+    margin-top: 24px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sub {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.big {
+    font-weight: 500;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.h-line {
+    width: 1px;
+    height: 800px;
+    background-color: #E5E5E5;
+}
+
+.b {
+    background-color: black;
+}
+
+.column {
+    flex-direction: column;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.red {
+    color: #c4170c;
+}
+
+.dblue {
+    color: #1e4b9b;
+}
+
+.dgreen {
+    color: #006766;
+}
+
+.green {
+    color: #07aa47;
+}
+
+.dorange {
+    color: #e3662b;
+}
+
+.dpink {
+    color: #fb0735;
+}
+
+.pink {
+    color: #ff75bb;
+}
+
+.orange {
+    color: #ec7d00;
+}
+
+.black {
+    color: #323333;
+}
+
+.purple {
+    color: #a81d83;
+}
